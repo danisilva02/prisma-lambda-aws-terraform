@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "module": "es6",
+    "target": "ES2020",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true
+  },
+  "exclude": ["dist", "esbuild.js", "jest.config.js", ".prettierrc.js", ".eslintrc.js", ".commitlintrc.js", ".lintstagedrc.js"]
+}

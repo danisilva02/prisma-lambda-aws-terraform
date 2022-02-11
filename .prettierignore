@@ -1,0 +1,9 @@
+node_modules
+dist
+
+# Terraform
+.terraform
+*.tfplan
+*.tfstate*
+.terraform.lock.hcl
+*.tfvars

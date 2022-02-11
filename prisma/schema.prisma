@@ -1,0 +1,15 @@
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "rhel-openssl-1.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model ticket {
+  id               String              @id @unique @default(uuid())
+  status           String
+  created_at       DateTime?           @default(now())
+}
